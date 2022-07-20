@@ -1,0 +1,55 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:IATA_AIDX_FlightLegNotifRQ xmlns:ns0="http://www.iata.org/IATA/2007/00" xmlns:ns2="http://ual.com/tm/hubControl" PrimaryLangID="en-us" Target="Test" Version="1.0"
+TimeStamp="2022-04-05T03:02:50.733">
+    <ns0:Originator Code="G7" CodeContext="3" CompanyShortName="GJS" TravelSector="A"/>
+    <!--1e6e5cf6b27d8e160df0c35738c04c48b48f04b9-->
+    <!--Wed Feb  2 18:00:48 UTC 2022-->
+    <!--AvFinity In Message Table ID = 21025076-->
+    <!--SSIM_SCHED Message Table ID = 1048693-->
+    <ns0:FlightLeg>
+        <ns0:LegIdentifier>
+            <ns0:Airline>G7</ns0:Airline>
+            <ns0:FlightNumber>4395</ns0:FlightNumber>
+            <ns0:DepartureAirport CodeContext="3">EWR</ns0:DepartureAirport>
+            <ns0:ArrivalAirport CodeContext="3">YYZ</ns0:ArrivalAirport>
+            <ns0:OriginDate>2022-04-04</ns0:OriginDate>
+            <ns0:RepeatNumber CurrentInd="true">1</ns0:RepeatNumber>
+        </ns0:LegIdentifier>
+        <ns0:LegData FlightClassification="UA EXPRESS" InternationalStatus="Domestic">
+            <ns0:OperationTime OperationQualifier="OFB" CodeContext="9750" TimeType="SCL">2022-04-04T21:10:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="OFB" CodeContext="9750" TimeType="SCT">2022-04-05T01:10:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="ONB" CodeContext="9750" TimeType="SCL">2022-04-04T22:56:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="ONB" CodeContext="9750" TimeType="SCT">2022-04-05T02:56:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="TKO" CodeContext="9750" TimeType="ACL">2022-04-04T21:43:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="TKO" CodeContext="9750" TimeType="ACT">2022-04-05T01:43:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="TDN" CodeContext="9750" TimeType="ACL">2022-04-04T22:48:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="TDN" CodeContext="9750" TimeType="ACT">2022-04-05T02:48:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="OFB" CodeContext="9750" TimeType="ACL">2022-04-04T21:20:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="OFB" CodeContext="9750" TimeType="ACT">2022-04-05T01:20:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="OFB" CodeContext="9750" TimeType="ESL">2022-04-04T21:10:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="OFB" CodeContext="9750" TimeType="EST">2022-04-05T01:10:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="ONB" CodeContext="9750" TimeType="ESL">2022-04-04T22:56:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="ONB" CodeContext="9750" TimeType="EST">2022-04-05T02:56:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="ONB" CodeContext="9750" TimeType="ACL">2022-04-04T23:01:00</ns0:OperationTime>
+            <ns0:OperationTime OperationQualifier="ONB" CodeContext="9750" TimeType="ACT">2022-04-05T03:01:00</ns0:OperationTime>
+            <ns0:AircraftInfo>
+                <ns0:AircraftType>CR7</ns0:AircraftType>
+                <ns0:AircraftSubType>C5G</ns0:AircraftSubType>
+                <ns0:Registration>N509MJ</ns0:Registration>
+                <ns0:CrewInfo Qualifier="7">0</ns0:CrewInfo>
+            </ns0:AircraftInfo>
+        </ns0:LegData>
+        <ns0:TPA_Extension>
+            <ns2:LegDataExtension xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:LegDataExtensionType">
+                <ns2:isSTARFlight>false</ns2:isSTARFlight>
+                <ns2:AircraftMetal>UAX</ns2:AircraftMetal>
+            </ns2:LegDataExtension>
+            <ns1:UAFlifoType xmlns:ns1="http://www.tibco.com/schemas/AIDXPub/SharedResources/Schemas/aidx/Schema.xsd2">
+                <ns1:EventName>UAX.IN</ns1:EventName>
+                <ns1:UserID>G7-ACARS</ns1:UserID>
+                <ns1:EventCreationDtm>2022-04-05T03:02:50Z</ns1:EventCreationDtm>
+            </ns1:UAFlifoType>
+        </ns0:TPA_Extension>
+    </ns0:FlightLeg>
+</ns0:IATA_AIDX_FlightLegNotifRQ>
